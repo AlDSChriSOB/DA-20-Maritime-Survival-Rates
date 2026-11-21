@@ -1,0 +1,7 @@
+column,dtype,missing,missing_pct,distinct
+rownames,int64,0,0.0,32
+Class,object,0,0.0,4
+Sex,object,0,0.0,2
+Age,object,0,0.0,2
+Survived,object,0,0.0,2
+Freq,int64,0,0.0,22

@@ -1,0 +1,14 @@
+{
+  "id": 20,
+  "title": "Maritime Survival Rates",
+  "question": "How does recorded survival proportion differ by passenger class and crew?",
+  "x": "Class",
+  "y": "Freq",
+  "mode": "survival",
+  "caveat": "Aggregated historical counts; passenger composition and access differ across groups.",
+  "action": "Compare age- and sex-stratified survival rates before attributing causes.",
+  "csv": "https://vincentarelbundock.github.io/Rdatasets/csv/datasets/Titanic.csv",
+  "doc": "https://vincentarelbundock.github.io/Rdatasets/doc/datasets/Titanic.html",
+  "metric_label": "survival percentage",
+  "method": "Frequency-weighted survival percentage = 100 \u00d7 surviving people / all recorded people, grouped by class."
+}

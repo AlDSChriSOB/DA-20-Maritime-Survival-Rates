@@ -1,0 +1,41 @@
+<html><head><meta charset="utf-8"><title>Maritime Survival Rates</title><style>body{font:17px system-ui;max-width:1100px;margin:40px auto;padding:20px;color:#182d41}img{max-width:100%}td,th{padding:8px;border-bottom:1px solid #ddd}</style></head><body><h1>Maritime Survival Rates</h1><p>How does recorded survival proportion differ by passenger class and crew?</p><p>The largest observed survival percentage is 62.462 for 1st. This ranking is descriptive, not a recommendation.</p><img src="main_chart.png"><h2>SQL evidence</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>segment</th>
+      <th>rows_used</th>
+      <th>metric</th>
+      <th>minimum</th>
+      <th>maximum</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1st</td>
+      <td>8</td>
+      <td>62.461538</td>
+      <td>0</td>
+      <td>140</td>
+    </tr>
+    <tr>
+      <td>2nd</td>
+      <td>8</td>
+      <td>41.403509</td>
+      <td>0</td>
+      <td>154</td>
+    </tr>
+    <tr>
+      <td>3rd</td>
+      <td>8</td>
+      <td>25.212465</td>
+      <td>13</td>
+      <td>387</td>
+    </tr>
+    <tr>
+      <td>Crew</td>
+      <td>8</td>
+      <td>23.954802</td>
+      <td>0</td>
+      <td>670</td>
+    </tr>
+  </tbody>
+</table><h2>Limitations</h2><p>Aggregated historical counts; passenger composition and access differ across groups.</p><h2>Next action</h2><p>Compare age- and sex-stratified survival rates before attributing causes.</p></body></html>

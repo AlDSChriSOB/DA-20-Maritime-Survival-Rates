@@ -1,0 +1,1 @@
+SELECT "Class" AS segment, COUNT(*) AS rows_used, 100.0 * SUM(CASE WHEN "Survived" = 'Yes' THEN "Freq" ELSE 0 END) / NULLIF(SUM("Freq"),0) AS metric, MIN("Freq") AS minimum, MAX("Freq") AS maximum FROM observations GROUP BY "Class" ORDER BY "Class";

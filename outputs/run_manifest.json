@@ -1,0 +1,16 @@
+{
+  "project": "Maritime Survival Rates",
+  "executed_utc": "2026-11-21T10:14:13.908996+00:00",
+  "source": "https://vincentarelbundock.github.io/Rdatasets/csv/datasets/Titanic.csv",
+  "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/datasets/Titanic.html",
+  "sha256": "ca983380c99d10ece64011fef5e07150ce49949d52b517e3fc55c7715938d179",
+  "raw_rows": 32,
+  "analysis_rows": 32,
+  "excluded_rows": 0,
+  "exact_duplicate_rows": 0,
+  "duplicates_policy": "Retained; duplicate values do not necessarily mean duplicate entities.",
+  "python": "3.12.14",
+  "pandas": "2.2.3",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.8"
+}
